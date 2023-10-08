@@ -1,17 +1,3 @@
-# x_inputs=[50, 70, 100]
-# w_weights=[2, 4, 1]
-# threshhold=500
-# weighted_sum=0
-# for x,w in zip(x_inputs,w_weights):
-#     items=x*w
-#     weighted_sum = weighted_sum + items
-# print(f"Total: {weighted_sum}")
-# remaining = threshhold - weighted_sum 
-# if weighted_sum <= threshhold:
-#     print(f"{weighted_sum:} is in our budget! We got {w_weights[0]} Chips, {w_weights[1]} Sandwiches, {w_weights[2]} Coke and Rs.{remaining} left")
-# else:
-#     print(f"{weighted_sum:} out of budget!")
-
 import random
 
 x_inputs = [50, 70, 100]
